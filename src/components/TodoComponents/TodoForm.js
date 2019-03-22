@@ -17,7 +17,7 @@ class TodoForm extends React.Component {
 		this.props.addTodo(e, this.state.todo);
 	};
 
-	return() {
+	render() {
 		return (
 			<form onSubmit={this.submitTodo}>
 				<input
